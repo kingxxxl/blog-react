@@ -4,7 +4,7 @@ import {useNavigate} from 'react-router-dom';
 const AddBlog = () => {
     const navigate = useNavigate();
     const onClick = async (e) => {
-        const request = await fetch('http://localhost:3030/api/v1/blog', {
+        const request = await fetch('https://reactblog11.herokuapp.com/api/v1/blog', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

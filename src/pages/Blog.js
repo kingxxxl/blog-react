@@ -17,7 +17,7 @@ const AddBlog = () => {
 
     useEffect(() => {
         const getBlog = async () => {
-            const request = await fetch('http://localhost:3030/api/v1/blog/' + id);
+            const request = await fetch('https://reactblog11.herokuapp.com/api/v1/blog/' + id);
             const data = await request.json();
             if (request.status === 400) {
                 return navigate('404');

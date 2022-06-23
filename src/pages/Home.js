@@ -13,7 +13,7 @@ const Home = () => {
 
     useEffect(() => {
         const getBlogs = async () => {
-            const request = await fetch('http://localhost:3030/api/v1/blog');
+            const request = await fetch('https://reactblog11.herokuapp.com/api/v1/blog');
             const data = await request.json();
 
             setBlogList(data);
