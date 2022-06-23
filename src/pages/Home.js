@@ -7,7 +7,7 @@ const Home = () => {
 
     const [blogList, setBlogList] = useState([]);
 
-    const onClick = (e) => {
+    const onClick = () => {
         navigate('/add-blog');
     };
 
