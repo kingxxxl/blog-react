@@ -23,7 +23,7 @@ const Home = () => {
     }, []);
     return (
         <div>
-            <h1 className='text-center mb-3'>Blog System</h1>
+            <h1 className='text-center mb-3 text-light'>Blog System</h1>
 
             <BlogList blogList={blogList}/>
             <button

@@ -31,7 +31,7 @@ const AddBlog = () => {
     }, []);
     return (
         <div>
-            <h1 className='text-center my-3'>{title}</h1>
+            <h1 className='text-center my-3 text-light'>{title}</h1>
 
             <textarea
                 className='form-control mt-3'

@@ -22,7 +22,7 @@ const AddBlog = () => {
     const [body, setBody] = useState('');
     return (
         <div>
-            <h1 className='text-center my-3'>Add Blog</h1>
+            <h1 className='text-center my-3 text-light'>Add Blog</h1>
             <input
                 type='text'
                 placeholder='Please enter your title'
@@ -42,7 +42,7 @@ const AddBlog = () => {
             <button
                 onClick={onClick}
                 type='button'
-                className='btn btn-primary btn-lg mt-3 w-100'
+                className='btn btn-primary btn-lg mt-3 text-light w-100'
             >
                 Add Blog
             </button>
